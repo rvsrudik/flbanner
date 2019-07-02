@@ -1,4 +1,4 @@
-<script>
+```<script>
         var banner1 = new flBanner({
             banner_id: 'defaltzz',
             title: 'Lorem Ipsum',
@@ -6,4 +6,6 @@
             imgSrc: 'https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg'
         })
 
-</script>
+</script>```
+
+
