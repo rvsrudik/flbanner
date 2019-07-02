@@ -1,6 +1,6 @@
 include
 ```
-<script src="https://cdn.jsdelivr.net/gh/rvsrudik/flbanner/src/fl_banner.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rvsrudik/flbanner@0.1/src/fl_banner.js"></script>
 ```
 using
 ```
