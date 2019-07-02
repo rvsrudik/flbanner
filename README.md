@@ -1,8 +1,4 @@
-including
-```
-<script src="https://github.com/rvsrudik/flbanner/blob/master/src/fl_banner.js"></script>
 
-```
 
 using
 ```
