@@ -1,3 +1,10 @@
+including
+```
+<script src="https://github.com/rvsrudik/flbanner/blob/master/src/fl_banner.js"></script>
+
+```
+
+using
 ```
 <script>
         var banner1 = new flBanner({
