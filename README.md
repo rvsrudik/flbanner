@@ -1,12 +1,14 @@
-
-
+include
+```
+<script src="https://cdn.jsdelivr.net/gh/rvsrudik/flbanner/src/fl_banner.js"></script>
+```
 using
 ```
 <script>
         var banner1 = new flBanner({
             banner_id: 'defaltzz',
-            title: 'Lorem Ipsum',
-            text: '<a href="//google.com">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit. Cras purus orci, auctor et blandit nec, luctus eu ante. Cras vitae eros sed diam finibus imperdiet. Duis faucibus ex vel erat bibendum venenatis. Mauris a nisl porttitor, tempus tortor ut, scelerisque magna. Integer ex lectus, facilisis ullamcorper vestibulum sed, vehicula id purus. ',
+            title: '<h1>Lorem Ipsum</h1>',
+            text: '<a href="//google.com">Some</a> Html or text',
             imgSrc: 'https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg'
         })
 
