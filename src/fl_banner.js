@@ -4,10 +4,11 @@ function flBanner(banner_options) {
         hidden_delay: 365*24*60*60*1000,
         title: 'Option [title] was not set',
         text: 'Option [text] was not set',
-        imgSrc: ''
+        imgSrc: '',
+        styles: ''
     }
 
-    for (let key in banner_options) {
+    for (var key in banner_options) {
         fl_options[key] = banner_options[key];
     }
 
@@ -48,7 +49,7 @@ function flBanner(banner_options) {
         var fl_banner_title = document.createElement('div');
         fl_banner_title.classList.add('fl-banner-title');
         fl_banner_title.innerHTML = fl_options.title;
-        fl_banner_title.setAttribute("style", "font-weight: 600; font-size: 20px;")
+        fl_banner_title.setAttribute("style", "font-weight: 600; font-size: 19px;")
         fl_banner_content.append(fl_banner_title);
 
 
@@ -72,6 +73,21 @@ function flBanner(banner_options) {
 
 
         document.body.appendChild(fl_banner);
+
+
+        for (var selectors in fl_options.styles) {
+            var el = document.querySelector('#fl_banner' + fl_options.banner_id + ' ' + selectors);
+            if (el === null) {
+                var el = document.querySelector('#fl_banner' + fl_options.banner_id  + selectors);
+            }
+            var style_str = el.getAttribute('style');
+            for (var style in fl_options.styles[selectors]) {
+
+                style_str += style+':'+fl_options.styles[selectors][style]+';';
+            }
+            el.setAttribute("style", style_str);
+
+        }
     }
 }
 
