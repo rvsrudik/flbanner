@@ -1,4 +1,9 @@
 function flBanner(banner_options) {
+    
+    //tmp 
+    console.log('disable banner included by cdn');
+    return;
+    
     var fl_options = {
         banner_id: 'fl_default',
         hidden_delay: 365*24*60*60*1000,
