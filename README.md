@@ -2,7 +2,7 @@ include
 ```
 <script src="https://cdn.jsdelivr.net/gh/rvsrudik/flbanner@0.1/src/fl_banner.js"></script>
 ```
-using
+usage
 ```
 <script>
     var banner1 = new flBanner({
